@@ -1,0 +1,2 @@
+rota get
+http://localhost:8080/api/s3/list-buckets
