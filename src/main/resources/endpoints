@@ -1,2 +1,7 @@
 rota get
 http://localhost:8080/api/s3/list-buckets
+adiçao de objeto no bucket
+ http://localhost:8080/api/s3/upload-file
+
+comandos aws
+ws --endpoint-url=http://localhost:4566 s3api create-bucket --bucket meu-s3 --region us-east-1 --profile localstack

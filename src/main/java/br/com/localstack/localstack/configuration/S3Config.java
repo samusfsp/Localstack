@@ -13,7 +13,7 @@ import org.springframework.context.annotation.Configuration;
 public class S3Config {
 
     @Value("${aws.s3.endpointUrl}")
-    private String s3EndpointUrl; // URL do LocalStack S3 (por exemplo, http://localhost:4566)
+    private String s3EndpointUrl;
 
     @Value("${aws.accessKey}")
     private String awsAccessKey;
