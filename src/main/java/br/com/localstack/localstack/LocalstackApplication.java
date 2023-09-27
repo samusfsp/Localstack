@@ -1,4 +1,4 @@
-package be.com.localstack.localstack;
+package br.com.localstack.localstack;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

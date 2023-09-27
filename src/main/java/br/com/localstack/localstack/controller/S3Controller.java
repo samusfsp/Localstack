@@ -1,4 +1,4 @@
-package be.com.localstack.localstack.controller;
+package br.com.localstack.localstack.controller;
 
 import com.amazonaws.services.s3.AmazonS3;
 import com.amazonaws.services.s3.model.Bucket;

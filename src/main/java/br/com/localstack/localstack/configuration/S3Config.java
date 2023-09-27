@@ -1,4 +1,4 @@
-package be.com.localstack.localstack.configuration;
+package br.com.localstack.localstack.configuration;
 
 import com.amazonaws.auth.AWSStaticCredentialsProvider;
 import com.amazonaws.auth.BasicAWSCredentials;
