@@ -1,5 +1,6 @@
 package br.com.localstack.localstack.configuration;
 
+
 import com.amazonaws.auth.AWSStaticCredentialsProvider;
 import com.amazonaws.auth.BasicAWSCredentials;
 import com.amazonaws.client.builder.AwsClientBuilder;
@@ -26,7 +27,7 @@ public class S3Config {
         BasicAWSCredentials awsCredentials = new BasicAWSCredentials(awsAccessKey, awsSecretKey);
 
         return AmazonS3ClientBuilder.standard()
-                .withEndpointConfiguration(new AwsClientBuilder.EndpointConfiguration(s3EndpointUrl, "us-east-1"))
+                .withEndpointConfiguration(new AwsClientBuilder.EndpointConfiguration("http://localhost:4566", "sa-east-1"))
                 .withCredentials(new AWSStaticCredentialsProvider(awsCredentials))
                 .build();
     }
